@@ -1,0 +1,35 @@
+name: offline_music_player
+description: Simple Offline Music Player (LAB 5)
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.36
+  audio_service: ^0.18.12
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  permission_handler: ^11.1.0
+
+  on_audio_query: ^2.9.0
+  audio_session: ^0.1.18
+  rxdart: ^0.27.7
+  palette_generator: ^0.3.3+3
+  cached_network_image: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/sample_songs/
+    - assets/images/
