@@ -6,7 +6,7 @@
 
 ---
 
-## 🛠 Công nghệ sử dụng
+##  Công nghệ sử dụng
 - Flutter SDK: **3.38.4**
 - Dart
 - State Management: **Provider**
@@ -44,7 +44,7 @@ lib/
 
 ---
 
-## 🔐 Quyền truy cập (Android)
+##  Quyền truy cập (Android)
 Ứng dụng yêu cầu quyền truy cập nhạc để quét và phát file audio:
 - Android 13+: `READ_MEDIA_AUDIO`
 - Android < 13: `READ_EXTERNAL_STORAGE`
